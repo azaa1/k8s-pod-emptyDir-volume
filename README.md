@@ -10,7 +10,7 @@
 
 - RestartPolicy is set to 'Never', which means the container will not be restarted regardless of why it exited. 
 
-- Under volumes, it creates 'emptyDir' volume named 'shared-volume'. Which in the background creates an empty folder on the node that the pod gets assigned to. The location of the folder on the node is : /var/lib/kubernetes/pods/<id-of-the-pod>/volumes/kubernetes.io~empty-dir/
+- Under volumes, it creates 'emptyDir' volume named 'shared-volume'. Which in the background creates an empty folder on the node that the pod gets assigned to. The location of the folder on the node is : /var/lib/kubernetes/pods/< id-of-the-pod >/volumes/kubernetes.io~empty-dir/
 
 - Under containers, 2 containers are created. 
 
