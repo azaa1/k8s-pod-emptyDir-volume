@@ -35,7 +35,7 @@ Kubernetes Pod and 'emptyDir' Volume.
 - kubectl get pods -o wide 
 
 - Then run curl command: 
-- curl <ip-of-node>
+- curl < ip-of-node >
 
 * You should see the message:  "Hello from the Debian container"
 
